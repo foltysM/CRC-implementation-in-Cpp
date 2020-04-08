@@ -1,9 +1,6 @@
 #include <QCoreApplication>
 #include <iostream>
 #include <time.h>
-#include <cstdlib>
-#include <stdio.h>
-
 
 using namespace std;
 
@@ -170,6 +167,9 @@ int main(int argc, char *argv[])
     cout << hex << "CRC to " << swapped_crc<<endl;
     cout << "Obliczenia zajely: "<<czas<<endl;
     cout << "Czas jednej iteracji to: "<<czas/n<<endl;
+    int w;
+    cout<<"Wpisz jakikolwiek znak i nacisnij enter aby wyjsc";
+    cin>>w;
     exit( 0 );
     return a.exec();
 }
